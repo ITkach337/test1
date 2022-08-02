@@ -1,1 +1,1 @@
-web: gunicorn app:photoapp
+web: gunicorn photoapp.wsgi --log-file -
