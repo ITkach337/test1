@@ -1,1 +1,1 @@
-web: gunicorn photoapp --log-file -
+web: gunicorn app:photoapp
